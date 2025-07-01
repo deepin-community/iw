@@ -1,3 +1,39 @@
+iw (6.9-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Ben Hutchings <benh@debian.org>  Thu, 30 May 2024 20:10:35 +0200
+
+iw (6.7-1) unstable; urgency=medium
+
+  * New upstream version 6.7
+  * d/u/signing-key.asc: update signing key
+  * d/control: apply wrap-and-sort -kbast
+  * d/control: replace B-D on obsolete pkg-config with pkgconf
+
+ -- Paride Legovini <paride@debian.org>  Tue, 05 Mar 2024 00:17:19 +0100
+
+iw (5.19-2) experimental; urgency=medium
+
+  * d/control: Update Maintainer, Uploaders, Vcs-* for team-maintenance
+  * d/rules: Install iw in /usr/sbin
+
+ -- Ben Hutchings <benh@debian.org>  Fri, 24 Nov 2023 23:56:52 +0000
+
+iw (5.19-1) unstable; urgency=medium
+
+  [ Paride Legovini ]
+  * New upstream version 5.19.
+    (Closes: #974833, thanks to Diederik de Haas)
+  * d/control: bump Standards-Version to 4.6.1, no changes needed
+  * d/control: fix spelling error in description
+
+  [ Ben Hutchings ]
+  * d/salsa-ci.yml: Add CI configuration for Salsa
+  * d/rules: Enable verbose build unless the "terse" build option is used
+
+ -- Paride Legovini <paride@debian.org>  Tue, 12 Jul 2022 22:30:15 +0000
+
 iw (5.16-1) unstable; urgency=medium
 
   * New upstream version 5.16
